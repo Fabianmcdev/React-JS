@@ -1,0 +1,58 @@
+.page{
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.movies{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  gap: 32px;
+}
+.movie{
+  text-align: center;
+}
+.movie h3, .movie p{
+  margin: 0;
+}
+
+.movie img{
+  border-radius: 8px;
+  margin-top: 16px;
+}
+/* Animacion de la imagen*/
+/* section{
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+section img{
+  width: 0px;
+  flex-grow: 1 ;
+  object-fit: cover;
+  opacity: .8;
+  transition: all .5s ease-in-out;
+}
+section img:hover{
+  cursor: crosshair;
+  opacity: 1;
+  width: 300px;
+  filter:contrast(120%)
+}
+ */
